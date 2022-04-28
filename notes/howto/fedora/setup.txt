@@ -61,4 +61,6 @@ sudo dnf install thunderbird
 
 sudo sudo dnf install snapd
 sudo snap install youtube-music-desktop-app
+flatpak install flathub com.spotify.Client
+
 xclip -sel clip PAT.txt
