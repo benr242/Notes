@@ -1,0 +1,15 @@
+Symfony
+
+symfony new --webapp Base
+
+symfony server:start
+http://localhost:8000/
+
+//A list of all the routes
+
+php bin/console debug:router
+
+$composer require twig
+$composer require logger
+$composer require —dev debug
+
