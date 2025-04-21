@@ -8,4 +8,4 @@ composer require security
 composer require symfony/webpack-encore-bundle
 composer require --dev orm-fixtures
 composer require symfony/orm-pack
-composer require --dev symfony/maker-bund
+composer require --dev symfony/maker-bundle

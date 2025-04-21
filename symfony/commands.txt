@@ -1,6 +1,8 @@
 
 symfony server:start
 
+php bin/console doctrine:database:create
+
 //MIGRATION
 ./bin/console make:migration
 ./bin/console doctrine:migrations:migrate
