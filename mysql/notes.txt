@@ -1,5 +1,13 @@
+show databases;
+create database mydb;
+drop database mydb;
+
+//show current user
+select user();
+
 //change password
 alter user 'benr242'@'localhost' identified by 'd0p3Star';
 
 //create new superuser
 GRANT ALL PRIVILEGES ON *.* TO 'benr242'@'%';
+
