@@ -1,5 +1,8 @@
 Symfony
 
+//phpstorm symfony plugin
+https://plugins.jetbrains.com/plugin/7219-symfony-plugin
+
 symfony new --webapp Base
 
 symfony server:start
@@ -9,7 +12,7 @@ http://localhost:8000/
 
 php bin/console debug:router
 
-$composer require twig
+$acomposer require twig
 $composer require logger
 $composer require —dev debug
 

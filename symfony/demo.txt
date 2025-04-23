@@ -5,4 +5,5 @@ symfony server:stop
 
 localhost:8000/
 
-
+//after editing .env->DATABASE_URL
+php bin/console doctrine:database:create

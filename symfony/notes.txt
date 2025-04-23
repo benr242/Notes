@@ -2,6 +2,9 @@
 =======
 ## Feature ##
 
+//phpstorm symfony plugin
+https://plugins.jetbrains.com/plugin/7219-symfony-plugin
+
 git remote add origin https://github.com/benr242/BookieSymfony.git
 
 //if new checkout from GitHub
