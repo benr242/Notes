@@ -1,0 +1,14 @@
+//GIT
+gh repo list
+gh repo create (interactive)
+
+git tag -a v0.1 -m "start point"
+git show v0.1
+
+symfony console make:controller
+    >>Test makes TestController)
+
+$git tag #list tags
+$git tag v0.2 #creates new tag
+
+
