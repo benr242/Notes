@@ -1,8 +1,4 @@
-	-------- SYNC ERROR ----------
-
-➜ php bin/console doctrine:database:create
-➜ php bin/console doctrine:database:drop --force
-
+-------- SYNC ERROR ----------
 //downgrade database
 $ ./bin/console doctrine:migrations:migrate first -n
 

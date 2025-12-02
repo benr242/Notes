@@ -2,9 +2,6 @@
 =======
 ## Feature ##
 
-//phpstorm symfony plugin
-https://plugins.jetbrains.com/plugin/7219-symfony-plugin
-
 git remote add origin https://github.com/benr242/BookieSymfony.git
 
 //if new checkout from GitHub
@@ -27,9 +24,11 @@ symfony console make:entity user
 composer require symfony/webpack-encore-bundle
 // START SERVER
 symfony server:start
-http://localhost:8000
 
 //GIT
+gh repo list
+gh repo create (interactive)
+
 git tag -a v0.1 -m "start point"
 git show v0.1
 

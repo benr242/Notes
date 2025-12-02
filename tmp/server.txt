@@ -1,0 +1,7 @@
+symfony server:start
+//run in background
+symfony server:start -d
+symfony server:stop
+
+localhost:8000/
+
