@@ -1,10 +1,7 @@
+//undo non-added changes
+git reset --hard
 
 git remote add origin https://github.com/benr242/BookieSymfony.git
-
-//from inside local repository, to create it on GitHub and push local
-gh repo create (interactive)
-
-gh repo list
 
 git tag -a v0.1 -m "start point"
 git show v0.1
@@ -12,4 +9,9 @@ git show v0.1
 $git tag #list tags
 $git tag v0.2 #creates new tag
 
+--------- GitHub ---------
+///inside local repository, to create it on GitHub and push local
+gh repo create (interactive)
 
+gh repo list
+*****************************
