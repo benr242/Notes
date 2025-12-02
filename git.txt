@@ -1,12 +1,13 @@
-//GIT
-gh repo list
+
+git remote add origin https://github.com/benr242/BookieSymfony.git
+
+//from inside local repository, to create it on GitHub and push local
 gh repo create (interactive)
+
+gh repo list
 
 git tag -a v0.1 -m "start point"
 git show v0.1
-
-symfony console make:controller
-    >>Test makes TestController)
 
 $git tag #list tags
 $git tag v0.2 #creates new tag
